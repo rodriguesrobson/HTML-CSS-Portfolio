@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Nunito+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Nunito+Sans:wght@400;700&family=Press+Start+2P&family=Raleway:wght@400;700;900&display=swap');
 
 .geral{
   /*realizar todas as coisas geral de class
@@ -14,5 +14,6 @@
 
 body{
   color: white;
+  margin: 0px;
 }
 
