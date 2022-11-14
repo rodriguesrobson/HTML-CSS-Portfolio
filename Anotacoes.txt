@@ -1,0 +1,29 @@
+
+header>img+nav>a*5 | ctrl + / + space | enter
+    cria tag header:
+        tag img
+        tag nav
+            a
+            a
+            a
+            a
+            a
+    cria tag header e dentro a tag img + tag nav e dentro 5 tags a
+
+a[lang=en]{Skills} | ctrl + / + space | enter
+    <a href="" lang="en">Skills</a>
+
+[] Atributos
+{} Conteudo
+
+display: muda comportamentos da tela
+
+display: inline; - deixa todos os itens alinhados (mesma linha)
+display: inline; - não permite usar 2 propriedades ex: width: largura e height: altura
+display: block; - ocupa todo o espaço e não permite altura e largura
+display: inline-block; - deixa em linha e permite colocar altura e largura
+display: flex; - 
+display: inline-flex; - 
+
+validator html w3c: valida o HTML verificando o codigo
+

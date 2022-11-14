@@ -1,0 +1,31 @@
+
+#projetos{
+    background-image: url('../assets/img/projetos/Background\ Gradient.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-color: rgba(17, 16, 14, 0.527);
+   
+
+    align-items: center;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#sessao1{  
+    display: inline-block;
+    width: 40%;
+}
+
+#sessao2{
+    display: inline-block;
+    width: 40%;
+}
+
+.imagem-projeto{
+    width: 280px;
+    height: 280px;
+} 

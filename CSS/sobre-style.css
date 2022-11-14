@@ -1,0 +1,20 @@
+
+#sobre{
+    padding: 15px 0px 15px 0px;
+    background-image: url(../assets/img/projetos/saude-e-seg.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 4px solid white;
+}
+
+#description-work{
+    margin: 40px;
+    text-align: justify;
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 20px;
+    
+}

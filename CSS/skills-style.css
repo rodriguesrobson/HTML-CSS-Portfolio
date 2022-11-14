@@ -1,0 +1,24 @@
+
+#skills{
+    
+    background-image:url(../assets/img/get2.jpg) ;
+    text-align: center;
+    padding: 25px 0px 50px 0px;
+    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#skills1{
+    display: inline-block;
+    width: 40%;
+    
+}
+
+#skills2{
+    display: inline-block;
+    width: 40%;
+    
+}

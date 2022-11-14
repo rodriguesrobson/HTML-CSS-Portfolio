@@ -2,23 +2,25 @@
 . -> Class
 # -> ID
 */
-.banner{
+#banner{
     display: inline-block;
     
     align-items: center;
     background-image: url(../assets/img/technology-.jpg);
-    height: 320px;
+    height: 385px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     align-content: center;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
 }
 #cashier{
     font-size: 12px;
     background-color: rgb(65 98 108 / 86%);
     width: 280px;
     height: 90px;
-    margin: 60px 0px 10px 10px;
+    margin: 105px 0px 15px 50px;
     
     justify-content: center;
     text-align: center;
@@ -30,21 +32,27 @@
 #professional{
     padding: 2px 5px; 
     font-family: 'Press Start 2P', cursive;
-    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.651) ;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.651);
+    
 }
 
-#button-banner{
+.button-banner{
     background-color: #4608b9;
     display: inline-block; /*se não colocar o display inline block não altera a altura e largura*/
     padding: 18px 20px;
     box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.651) ;
-    margin: 10px;
+    margin-right: 55px;
 }
-#button-banner:hover{
+.button-banner:hover{
     transform: scale(1.08);
 }
 
 #name{
     font-family: 'Press Start 2P', cursive;
     text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.651) ;
+    padding-top: 7px;
+    margin-bottom: 15px;
+}
+.space{
+    margin-left: 30px;
 }

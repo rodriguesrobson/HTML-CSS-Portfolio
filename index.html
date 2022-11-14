@@ -7,43 +7,90 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Nunito+Sans:wght@400;700&family=Press+Start+2P&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Nunito+Sans:wght@400;700&family=Press+Start+2P&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/header-style.css">
     <link rel="stylesheet" href="CSS/banner-style.css">
+    <link rel="stylesheet" href="CSS/skills-style.css">
+    <link rel="stylesheet" href="CSS/projetos-style.css">
+    <link rel="stylesheet" href="CSS/sobre-style.css">
+    <link rel="stylesheet" href="CSS/contatos-style.css">
+    
     <title>Projeto HTML e CSS</title>
   
 </head>
 <body>
     <header>
-        <img src="assets/img/trab- (1).png" alt="imagem logo de rosto">
+        <img src="assets/img/trab-(1).png" alt="imagem logo de rosto">
             
             <nav>
                 <a href="#" lang="es">Skills</a>
                 <a href="#">Projetos</a>
                 <a href="#">Sobre</a>
-                <a href="#">Contatos</a>
-                <a href="#" button=""lang="en" id="button">Download CV</a>
+                <a href=".contatos">Contatos</a>
+                <a href="https://www.mercadolivre.com.br/" button=""lang="en" id="button">Download CV</a>
             </nav>                
     </header>
-    <section class="banner">
+    <section id="banner">
         <div id="cashier">
             <h1 id="name">Robson Rodrigues</h1>
             <p id="professional">Desenvolvedor Full Stack</p>
         </div>
-        <a href="#" id="button-banner">Dowload CV</a>
-        <a href="#" id="button-banner">Contatos</a>
+        <a href="#" class="button-banner space">Dowload CV</a>
+        <a href="#" class="button-banner">Contatos</a>
 
     </section>
-    <div class="pai">
-        <div class="filho1">
-            Texto 1 (display flex)
+    <section id="skills">
+        <h2 class="title">Skills</h2>
+            <div id="skills1">
+                <img src="./assets/img/skills/skill-html.png" alt="não aparece">
+                <img src= "./assets/img/skills/skill-css.png" alt="não aparece">
+                <img src="./assets/img/skills/skill-js.png" alt="não aparece">
+                <img src="./assets/img/skills/skill-react.png" alt="não aparece">
+            </div>
+            <div id="skills2">
+                <img src="./assets/img/skills/2-skill-node.png" alt="não aparece">
+                <img src="./assets/img/skills/2-skill-restapi.png" alt="não aparece">
+                <img src="./assets/img/skills/2-skill-tdd.png" alt="não aparece">
+                <img src="./assets/img/skills/2-skill-ux.png" alt="não aparece">
+            </div>
         </div>
-        <div class="filho2">
-            Texto 2 (display flex)
+    </section>
+    <section id="projetos">
+        <h2 class="title">Projetos</h2>
+        <div id="sessao1">
+            <img class="imagem-projeto" src="./assets/img/projetos/collabcode.png" alt="">
+            <h2>Projeto 1</h2>
+        </div>  
+        <div id="sessao2">
+            <img class="imagem-projeto" src="./assets/img/projetos/firedlabs.png" alt="">
+            <h2>Projeto 2</h2>
         </div>
-    </div>
- 
+    </section>
+    <section id="sobre">
+        <h2 class="title">Sobre</h2>
+        <p id="description-work">Hoje, na área de Segurança do Trabalho e desenvolvedor FrontEnd/UX por empresas, Robson já trabalhou nas mais diversas áreas. Entrou na área de TI como desenvolvedor, pois ao escolher sua segunda graduação viu a expansão do mercado na área e gosta de ir descobrindo seu caminho conforme o percorre.
+        </p>
+    </section>
+    <section id="contatos">
+        <h2 class="title">Contatos</h2>
+        <h1>Formulario de cadastro</h1>
+        <fieldset>
+            <legend>Assunto</legend>
+            <input class="subject" type="radio" name="assunto" id="assunto"> Sugestões
+            <input class="subject" type="radio" name="assunto" id="assunto"> Dúvidas
+            <input class="subject" type="radio" name="assunto" id="assunto"> Outros
+        </fieldset>
+        <fieldset>
+            <legend >Dados Pessoais</legend>
+            <div>
+            <label for="name">Nome:</label><input type="text" name="" id=""> 
+            <label for="email">E-mail:</label><input type="email" name="" id=""> 
+            <textarea class="information" name="textarea-contato" id="" cols="30" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
+            </div>
+        </fieldset>                        
+    </section>
+<script src="./js/script.js"></script>
 </body>
 </html>
